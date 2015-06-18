@@ -7,11 +7,11 @@
   class="sortable">
 
   <div>
-    <i ng-if="column.glyph" class="{{column.glyph}}"></i> {{column.title}}
+    <i ng-if="column.glyph" class="fa fa-{{column.glyph}}"></i> {{column.title}}
   </div>
 </th>
 
-<th class="text-center" ng-include="toolbarTemplate">
+<th class="text-center col-actions" ng-include="toolbarTemplate">
   Actions
 </th>
 <!--
